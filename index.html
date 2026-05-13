@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+    <h3 style="
+        text-align: center;"
+        >Cuidar da Saúde é Fundamental</h3>
+    <h5 style="
+        text-align: center;"
+        >Exercício push e shift</h5>
+        
+    <br>
+
+    <form id="formulario">
+        <fieldset>
+            <legend>Unidade Básica de Saúde</legend>
+
+            <label for="">Nome:
+                <input
+                type="text"
+                placeholder="Nome do paciente"
+                id="nome"
+                class="caixa_entrada"
+                required
+                >
+
+                <br><br>
+            <button class="btn" type="submit">Cadastrar</button>
+            <input class="btn" type="button" onclick="listar()" value="Consultar">
+        </fieldset>
+
+        
+    </form>
+
+    <br>
+
+    <div>
+        <fieldset id="resultado_espera">
+            <legend>Fila de Espera</legend>
+
+
+        </fieldset>
+    </div>
+    <br>
+    
+    <input class="btn" type="button" id="atender" onclick="atender()" value="Atender">
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
